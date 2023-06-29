@@ -1,0 +1,135 @@
+.header {
+    display: block;
+    text-align: center;
+    align-items: center;
+    border: 1px solid chartreuse;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+
+.title {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Helvetica;
+    color: rgb(195, 195, 195);
+    animation: titilar 1.5s ease-in-out infinite;
+    transition: transform 0.3s;
+}
+
+@keyframes titilar {
+    0% {
+        color: chartreuse;
+    }
+    
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: rgb(255, 0, 0);
+    }
+        
+    75% {
+        color: rgb(61, 126, 255);
+    }
+
+    100% {
+        color: chartreuse;
+    }
+}
+
+.title:hover {
+    color: rgb(246, 255, 0);
+    border-color: aquamarine;
+    transform: scale(1.1);
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+    cursor:default;
+    user-select: none;
+    background-clip: url("https://www.vecteezy.com/video/3384760-space-travel-the-small-magellanic-cloud-galaxy");
+    background-size: 100%;
+}
+
+body p {
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+    color: rgb(195, 195, 195);
+    transition: color 0.5s;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+
+.body-p {
+    display: block;
+    align-items: center;
+    margin-top: 25px;
+    text-align: justify;
+    border: chartreuse solid 1px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+
+body p:hover{
+    transform: scale(1.02);
+}
+
+video {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+}
+
+.lorem0:hover {
+    color: aqua;
+}
+
+.lorem1:hover {
+    color:rgb(255, 55, 55);
+}
+
+.lorem2:hover {
+    color:chartreuse;
+}
+
+.footer-div {
+    display: block;
+    text-align: center;
+    align-items: center;
+    border: chartreuse solid 1px;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+
+.footer-text {
+    display: inline-flex;
+    color: black;
+}
+
+.footer-text:hover {
+    color: rgb(195, 195, 195);
+}
+
+.animated-text {
+    display: inline-block;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  .animated-text span {
+    transition: color 0.3s;
+  }
+  
+  .animated-text:hover span {
+    color: red;
+}
